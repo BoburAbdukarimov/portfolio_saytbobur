@@ -79,7 +79,7 @@ section {
 }
 
 .main .content h2 span {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -444,6 +444,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 10px;
+  text-align: center;
 }
 
 .contact .card .info span {
