@@ -62,7 +62,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(./images/keith-misner-h0Vxgz5tyXA-unsplash.jpg) no-repeat;
+  background: url(./images/peter-gargiulo-cGNCepznaV8-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -417,7 +417,7 @@ section {
 
 .contact .row .card {
   background: #fff;
-  width: 240px;
+  width: 280px;
   margin: 20px;
   padding: 25px;
   display: flex;
