@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./kutubxonalar/slick1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="./kutubxonalar/aos.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -27,13 +29,13 @@
     </div>
   </header>
 
-  <section class="main" id="main">
+  <section class="main" id="main" data-parallax="scroll"  data-image-src="./images/abstract-digital-art-minimalism-simple-background-macro-3D-Abstract-lines-1336189.jpg">
     <div class="content">
       <h2>Hello, I'm <br> <span>Bobur Abdukarimov</span> </h2>
       <div class="animated-text">
-        <h3>Student</h3>
-        <h3>Web Developer</h3>
-        <h3>Web Designer</h3>
+        <h3 class="element2"></h3>
+        <!-- <h3 class="element2">Web Developer</h3>
+        <h3 class="element2">Web Designer</h3> -->
       </div>
       <a href="#" class="btn">See My Work</a>
       <div class="media-icons">
@@ -50,11 +52,11 @@
     </div>
     <div class="content">
       <div class="column col-left reveal">
-        <div class="img-card">
+        <div class="img-card" data-aos="fade-down-right">
           <img src="./images/ben-sweet-2LowviVHZ-E-unsplash.jpg" alt="">
         </div>
       </div>
-      <div class="column col-right reveal">
+      <div class="column col-right reveal" data-aos="fade-down-left">
         <h2 class="content-title">Hey there! I'm Bobur</h2>
         <p class="paragraph-text">Officiis, eos pariatur esse velit veritatis reiciendis cum quod possimus quas? Modi adipisci odit voluptatem tempora error perferendis quisquam, dolores iure, ullam id nam quaerat dolor incidunt, ratione aliquam deserunt eaque explicabo nostrum quo veniam expedita distinctio dolorem. Aspernatur consectetur eum vitae nobis.</p> <br>
         <p class="paragraph-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis ullam deserunt debitis. Rerum necessitatibus accusantium, ipsa, officiis, eos pariatur esse velit veritatis reiciendis cum quod possimus quas? Modi adipisci odit voluptatem tempora error perferendis quisquam, dolores iure, ullam id nam</p>
@@ -63,7 +65,7 @@
     </div>
   </section>
 
-  <section class="skills" id="skills">
+  <section class="skills" id="skills"  data-parallax="scroll" data-image-src="./images/1591733590_40-p-3d-soti-oboi-na-rabochii-stol-wallhere-kra-64.jpg">
     <div class="title reveal">
       <div class="section-title">My Skills</div>
     </div>
@@ -149,7 +151,7 @@
     </div>
   </section>
 
-  <section class="work" id="work">
+  <section class="work" id="work" data-parallax="scroll" data-image-src="./images/1591733590_40-p-3d-soti-oboi-na-rabochii-stol-wallhere-kra-64.jpg">
     <div class="title reveal">
       <div class="section-title">My Work</div>
     </div>
@@ -253,11 +255,24 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer"  data-parallax="scroll" data-image-src="./images/abstract-digital-art-minimalism-simple-background-macro-3D-Abstract-lines-1336189.jpg">
     <span class="footer-title">Bobur Abdukarimov</span>
     <p>Copyright @2021. All Rights Reserved.</p>
   </footer>
 
+ 
+  <script src="./kutubxonalar/jquery.js"></script>
+  <script src="./kutubxonalar/parallax.js"></script>
+  <script src="./kutubxonalar/aos1.js"></script>
+  <script src="./kutubxonalar/slick.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./kutubxonalar/typed.js"></script>
+  <script>
+ 
+  </script> 
+  <script src="app.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
